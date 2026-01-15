@@ -1,4 +1,4 @@
-FROM ghcr.io/radiorabe/ubi9-minimal:0.11.2 AS app
+FROM ghcr.io/radiorabe/ubi9-minimal:0.11.3 AS app
 
 RUN    microdnf install -y \
          shadow-utils \
